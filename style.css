@@ -1,32 +1,6 @@
-nav{
-	background-image: linear-gradient(to right, #17633a, #FFFFFF, #17633a )
-}
-a .dropdown-item{
-	background-color: #17633a;
-	color: #FFFFFF
-}
-
-div .dropdown-menu{
-	background-color: #17633a;
-	color: #FFFFFF
-}
-
-.escudo{
-	height: 64px;
-	width: 64px;
-}
-
-
-nav .col a {
-	text-decoration: none;
-	color: white
-}
-
-.row_sombra{
-	width: 700px
-}
-
-.container {
-	margin-right: 175px;
-	margin-top: 100px;
+.sandwich {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
 }
