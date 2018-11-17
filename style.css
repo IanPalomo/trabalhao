@@ -4,3 +4,263 @@
     background-color: white;
     margin: 6px 0;
 }
+
+#bootao:hover{
+	background-color: #cdd102
+}
+
+.main-search_input{
+	width:500px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border: solid 1px white;
+	height: 32px;
+}
+
+.enviar{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px 20px 0px 75px
+}
+
+.enviar:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #cdd102
+}
+
+.entrar{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.entrar:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #cdd102
+}
+
+#procurar{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: white;
+	border-radius: solid 1px white;
+	height: 32px;
+	width: 40px;
+	text-align: center;
+	padding-top: 9px 
+}
+
+.main{
+	background-color: #424242;
+	border-radius:16px;
+	color: white;
+	font-weight: 700;
+	height: 32px;
+	width: 82px;
+	padding: 0px 15px 0px 15px;
+	text-align: center;
+	margin-right: 6px;
+}
+
+.main:hover{
+	text-decoration: none;
+	color: white
+}
+
+.rock{
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: 700;
+	height: 32px;
+	width: 82px;
+	padding: 0 15px;
+	margin-right: 6px;
+	text-align: center;
+	color: black;
+	border:solid 1px #EEE;
+}
+
+.rock:hover{
+	color: black;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+.gospel{
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: 700;
+	height: 32px;
+	width: 82.86px;
+	padding: 0 15px;
+	margin-right: 6px;
+	text-align: center;
+	color: black;
+	border:solid 1px #EEE;
+	background-color: white;
+}
+
+.gospel:hover{
+	color: black;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+.sertanejo{
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: 700;
+	height: 32px;
+	width: 100px;
+	padding: 0 15px;
+	margin-right: 6px;
+	text-align: center;
+	color: black;
+	border:solid 1px #EEE;
+	background-color: white;
+}
+
+.sertanejo:hover{
+	color: black;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+.funk{
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: 700;
+	height: 32px;
+	width: 82px;
+	padding: 0 15px;
+	margin-right: 6px;
+	text-align: center;
+	color: black;
+	border:solid 1px #EEE;
+	background-color: white;
+}
+
+.funk:hover{
+	color: black;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+.mais{
+	border-radius: 16px;
+	display: inline-block;
+	font-weight: 700;
+	height: 32px;
+	width: 82px;
+	padding: 0 15px;
+	margin-right: 6px;
+	text-align: center;
+	color: black;
+	border:solid 1px #EEE;
+	background-color: white;
+}
+
+.mais:hover{
+	color: black;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+.ft{
+	border-radius: 20px;
+	width:1075px; 
+	height:320px;
+}
+
+a span.ouvirFt{
+	width: 488.781px;
+	height: 30px;
+	padding: 0px 15px 0px 34px;
+	border:solid 1px #5EB70B;
+	background-color: #5EB70B;
+	color:#FFF;
+	font-weight: 700;
+	border-radius: 20px;
+	margin-left: 55px;
+	text-decoration: none;
+}
+
+.ouvirFt:hover{
+	text-decoration: none
+}
+
+.maisAcessados{
+	float: left;
+}
+
+.acessos{
+	color:#b7b700;
+	font-size: 25px;
+}
+
+.acessos:hover{
+	color:#b7b700;
+}
+
+.verTudo{
+	width: 215.141px;
+	height: 30px;
+	padding: 0px 15px 0px 15px;
+}
+
+a.ver{
+	color: black;
+	border-radius: 10px;
+	font-size: 13px;
+	font-weight: 700
+}
+
+.ver:hover{
+	text-decoration: none;
+	background-color: #EEEEEE
+}
+
+.top-list_mus cnt-list--col2{
+	width: 695px;
+	height:320px;
+}
+
+.top-list_mus li{
+	height:64px;
+	width: 335px; 
+	counter-increment: tlmus;
+}
+
+.top-list_mus a{
+	height: 34px;
+	width: 269px;
+	padding: 15px 10px 15px 56px;
+	text-decoration: none;
+	border-radius:8px;
+}
+ .top-list_mus b{
+ 	color:#F60;
+ 	font-size: 15px;
+ 	height: 18px;
+ 	display: block;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	text-overflow: ellipsis;
+ }
+
+ .top-list_mus span{
+ 	margin-top: 3px;
+ 	color: #999;
+ 	font-size: 13px;
+ 	height: 13px;
+ 	width: 269px
+ }
+
+ .top-list_mus li:hover{
+ 	background-color: #CCCCCC
+ }
