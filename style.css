@@ -243,17 +243,17 @@ a.ver{
 	text-decoration: none;
 	border-radius:8px;
 }
- .top-list_mus b{
+b{
  	color:#F60;
  	font-size: 15px;
- 	height: 18px;
+ 	height: 25px;
  	display: block;
  	overflow: hidden;
  	white-space: nowrap;
  	text-overflow: ellipsis;
  }
 
- .top-list_mus span{
+span{
  	margin-top: 3px;
  	color: #999;
  	font-size: 13px;
@@ -263,4 +263,36 @@ a.ver{
 
  .top-list_mus li:hover{
  	background-color: #CCCCCC
+ }
+
+ ol 
+ {
+ 	font-size:30px;
+ }
+ #musica 
+ {
+ 	color:#F60;
+ 	font-size: 15px;
+ 	height: 25px;
+ 	display: inline-block;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	text-overflow: ellipsis;;
+ }
+
+ #artista{
+ 	margin-top: -30px;
+ 	background-color: yellow
+ } 
+ .msc:hover{
+ 	text-decoration: none;
+ }
+
+ span.nmr{
+ 	font-size: 40px;
+ 	text-align: center;
+ }
+
+ .utmnmr{
+ 	font-size: 40px;
  }
