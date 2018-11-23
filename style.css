@@ -284,15 +284,53 @@ span{
  	margin-top: -30px;
  	background-color: yellow
  } 
+
+ #msc:hover{
+ 	background-color: #CCCCCC;
+ 	color: #F60
+ }
+
  .msc:hover{
  	text-decoration: none;
+ 	background-color: #ccc
  }
 
  span.nmr{
- 	font-size: 40px;
+ 	font-size: 45px;
  	text-align: center;
  }
 
  .utmnmr{
- 	font-size: 40px;
+ 	font-size: 45px;
+ }
+
+ .cantor{
+ 	height: 76px;
+ 	width: 76px;
+ 	display: block;
+ 	position: relative;
+ 	font-size: 0;
+ 	text-decoration: none; 
+ 	border-radius: 50%;
+ 	z-index: 1
+ }
+
+ .colocacao{
+ 	background-color: #B7B700;
+ 	color: white;
+ 	border: solid 0.5px white;
+ 	height: 30px;
+ 	width: 30px;
+ 	text-align: center;
+ 	border-radius: 50%;
+ 	margin-top: -25px;
+ 	z-index: 3;
+ }
+
+ b.nome{
+ 	color: #B7B700; 
+ }
+
+ #hover:hover{
+ 	background-color: #cccccc
  }
