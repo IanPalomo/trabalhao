@@ -286,13 +286,13 @@ span{
  } 
 
  #msc:hover{
- 	background-color: #CCCCCC;
+ 	background-color: #EEEEEE;
  	color: #F60
  }
 
  .msc:hover{
  	text-decoration: none;
- 	background-color: #ccc
+ 	background-color: #EEEEEE
  }
 
  span.nmr{
@@ -312,7 +312,6 @@ span{
  	font-size: 0;
  	text-decoration: none; 
  	border-radius: 50%;
- 	z-index: 1
  }
 
  .colocacao{
@@ -324,13 +323,50 @@ span{
  	text-align: center;
  	border-radius: 50%;
  	margin-top: -25px;
- 	z-index: 3;
+ 	z-index: 999;
  }
 
  b.nome{
  	color: #B7B700; 
  }
 
- #hover:hover{
- 	background-color: #cccccc
+.col-1:hover .nmr{
+ 	color: #F60
  }
+
+.col-1:hover .utmnmr{
+ 	color: #F60
+ }
+
+ #hover:hover{
+ 	background-color: #EEEEEE;
+ 	text-decoration: none;
+ 	border-radius: 10px
+ }
+
+ .linkzao:hover{
+ 	text-decoration: none
+ }
+
+.tituloPL{
+	color: black;
+
+}
+
+.playlists:hover{
+	text-decoration: none;
+
+}
+
+a span.ouvirMSC{
+	width: 263.734px;
+	height: 30px;
+	padding: 0px 15px 0px 34px;
+	border:solid 1px #5EB70B;
+	background-color: #5EB70B;
+	color:#FFF;
+	font-weight: 700;
+	border-radius: 20px;
+	margin-left: 55px;
+	text-decoration: none;
+}
