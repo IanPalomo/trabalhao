@@ -188,10 +188,15 @@ a span.ouvirFt{
 	border-radius: 20px;
 	margin-left: 55px;
 	text-decoration: none;
+	margin-top: -30px
 }
 
 .ouvirFt:hover{
 	text-decoration: none
+}
+
+.grindevaldo:hover{
+	text-decoration: none;
 }
 
 .maisAcessados{
@@ -210,13 +215,13 @@ a span.ouvirFt{
 .verTudo{
 	width: 215.141px;
 	height: 30px;
-	padding: 0px 15px 0px 15px;
+	padding: 10px 20px 10px 20px;
 }
 
 a.ver{
 	color: black;
 	border-radius: 10px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 700
 }
 
@@ -327,7 +332,9 @@ span{
  }
 
  b.nome{
- 	color: #B7B700; 
+ 	color: #B7B700;
+ 	font-weight: 700;
+ 	font-size: 20px 
  }
 
 .col-1:hover .nmr{
@@ -350,7 +357,6 @@ span{
 
 .tituloPL{
 	color: black;
-
 }
 
 .playlists:hover{
@@ -360,7 +366,6 @@ span{
 
 a span.ouvirMSC{
 	width: 263.734px;
-	height: 30px;
 	padding: 0px 15px 0px 34px;
 	border:solid 1px #5EB70B;
 	background-color: #5EB70B;
@@ -369,4 +374,110 @@ a span.ouvirMSC{
 	border-radius: 20px;
 	margin-left: 55px;
 	text-decoration: none;
+}
+
+.playRe:hover{
+	text-decoration: none;
+}
+
+.capaAlbum{
+	height: 155px;
+	width: 155px;
+	border-radius: 5px;
+
+}
+
+span.tituloPL{
+	font-weight: 700;
+	color: black
+}
+
+span.autor{
+	display: inline-block;
+}
+
+.artist{
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	display: block;
+}
+
+.recomended:hover{
+	text-decoration: none;
+	background-color: #EEEEEE;
+	border-radius: 5px
+}
+
+.radio{
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	height: 183px;
+	width: 189px;
+	text-align: center;
+	line-height: 1.2;
+	z-index: 2;
+	margin-right: 15px
+}
+
+.FTRadio{
+	height: 45px;
+	width: 45px;
+	margin-top: 10px;
+	border-radius: 6px
+}
+
+.ouvirRadio{
+	border-radius: 8px;
+	height: 183px;
+	width: 189px;
+	margin-right: 15px
+}
+
+.ouvirRadio:hover{
+	border: 1px solid black;
+	text-decoration: none;
+}
+
+.combinacao:hover{
+	text-decoration: none
+}
+
+.contribuidor:hover{
+	text-decoration: none
+}
+
+.footer{
+	background-color: #EEE;
+	border-top: 1px solid #E0E0E0 
+}
+
+.g-1{
+	background: url(https://studiosol-a.akamaihd.net/letras/static/img/bg-footer.vc113c9d3.svg) bottom right no-repeat;
+	width: 1055px; 
+	height: 724px;
+	padding: 25px 0px 35px 0px; 
+	margin:0px 146.5px 0px 450px;
+}
+
+.alfabeto a{
+	color:#999;
+	padding-right:15px;
+	display: inline-block;
+}
+
+.alfabeto a:hover{
+	color: #444
+}
+
+.g-fix{
+	padding-top: 15px;
+}
+
+.g-fix a{
+	color: #999
+}
+
+.g-fix a:hover{
+	color:#444;
 }
